@@ -1,7 +1,7 @@
 import os
-from srcs.pre_processing.pdf_processing import load_and_split_data
-from srcs.model_management.model_management import save_to_file, load_from_file, index_and_load_model
-from srcs.utils.utils import clear_directories, color_text
+from src.pre_processing.pdf_processing import load_and_split_data
+from src.model_management.model_management import save_to_file, load_from_file, index_and_load_model
+from src.utils.utils import clear_directories, color_text
 
 def check_and_load_data(erase_data=False):
     indexed_data_file = os.path.abspath(".saved_models/indexed_data.pkl")
