@@ -1,0 +1,12 @@
+langchain
+langchain_community
+langchain-text-splitters
+huggingface_hub
+sentence_transformers
+Cython
+faiss-cpu
+spacy
+spacy_language_detection
+deep_translator
+PyPDF2==2.12.1
+pypdf
